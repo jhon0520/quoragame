@@ -7,7 +7,7 @@ public class TestScript : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
 
-		// chao
+		//hola
 	}
 	
 	// Update is called once per frame
