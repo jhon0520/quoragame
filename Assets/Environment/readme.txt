@@ -1,0 +1,1 @@
+Assets asociados a environment
