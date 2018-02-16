@@ -22,15 +22,15 @@ For Windows users:
 2. Create a public github account
 3. Go to https://github.com/gislersoft/quoragame and fork the repository.
 4. Create a Unity Project in any local folder. Example: c:\\projects\quora
-5. Enable External option in Unity → **Preferences** → **Packages** → **Repository** (only if Unity ver < 4.5)
-6. Switch to Visible Meta Files in **Edit** → **Project Settings** → **Editor** → **Version Control Mode**
-7. Switch to Force Text in **Edit** → **Project Settings** → **Editor** → **Asset Serialization Mode**
-8. Save Scene and Project from File menu.
-9. Open git bash (From step 1).
-10. ``` cd c:\\projects\quora ```
-11. ``` git init ```
-12. ``` git remote add origin https://github.com/gislersoft/quoragame.git ```
-13. ``` git remote add fork https://github.com/<YOUR GIT HUB USER HERE>/quoragame.git ```
+5. Switch to Visible Meta Files in **Edit** → **Project Settings** → **Editor** → **Version Control Mode** → Visible Meta Files
+6. Switch to Force Text in **Edit** → **Project Settings** → **Editor** → **Asset Serialization Mode** → Force Text
+7. Save Scene and Project from File menu.
+8. Open git bash (From step 1).
+9. ``` cd c:\\projects\quora ```
+10. ``` git init ```
+11. ``` git remote add origin https://github.com/gislersoft/quoragame.git ```
+12. ``` git remote add fork https://github.com/<YOUR GIT HUB USER HERE>/quoragame.git ```
+13. ``` git checkout -f master ```
 14. ``` git pull origin master ```
 
 ### Useful commands
