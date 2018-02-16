@@ -1,3 +1,6 @@
+
+<img align="right" src="https://github.com/gislersoft/quoragame/blob/master/quora-logo.png" width="30%" height="30%" style="text-align:center">
+
 # Quora - Abandoned Planet
 
 Quora is a free open source video game used to teach some basic game development using the Unity Engine, the colaborators of this project are basically students of the Universidad Autónoma de Occidente UAO in Cali Colombia.
