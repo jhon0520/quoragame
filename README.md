@@ -29,12 +29,42 @@ For Windows users:
 6. Switch to Force Text in **Edit** → **Project Settings** → **Editor** → **Asset Serialization Mode** → Force Text
 7. Save Scene and Project from File menu.
 8. Open git bash (From step 1).
-9. ``` cd c:\\projects\quora ```
+9. ``` cd /d/clasevideojuegos/QuoraDesarrollo ```
 10. ``` git init ```
 11. ``` git remote add origin https://github.com/gislersoft/quoragame.git ```
 12. ``` git remote add fork https://github.com/<YOUR GIT HUB USER HERE>/quoragame.git ```
-13. ``` git checkout -f master ```
-14. ``` git pull origin master ```
+13. ``` git pull origin master ```
+14. ``` git checkout -f master ```
+15. ``` git pull origin master ```
+
+### Final checks
+
+Verify with  ``` git status ``` that the only change is the scene you just create, your expected output should be:
+
+ ``` 
+$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+        Assets/Prueba.unity
+        Assets/Prueba.unity.meta
+
+nothing added to commit but untracked files present (use "git add" to track)
+ ``` 
+ 
+ Verify with ```git remote -v``` that your repo pointer are correct your expected output should be:
+ 
+  ``` 
+ $ git remote -v
+fork    https://github.com/<YOUR GITHUB USERNAME>/quoragame.git (fetch)
+fork    https://github.com/<YOUR GITHUB USERNAME>/quoragame.git (push)
+origin  https://github.com/gislersoft/quoragame.git (fetch)
+origin  https://github.com/gislersoft/quoragame.git (push)
+ ``` 
+
 
 ### Useful commands
 
