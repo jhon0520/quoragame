@@ -1,0 +1,417 @@
+fileFormatVersion: 2
+guid: 3f250bd08e9ca9e45a08da31fc97dff6
+timeCreated: 1517084574
+licenseType: Free
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: box
+    100004: bullet
+    100006: bullet001
+    100008: bullet002
+    100010: bullet003
+    100012: bullet004
+    100014: bullet005
+    100016: bullet006
+    100018: bullet007
+    100020: bullet008
+    100022: bullet009
+    100024: bullet010
+    100026: bullet011
+    100028: bullet012
+    100030: bullet013
+    100032: bullet014
+    100034: bullet015
+    100036: shell_casing
+    100038: shell_casing002
+    100040: shell_casing004
+    100042: shell_casing006
+    100044: shell_casing008
+    100046: shell_casing010
+    100048: shell_casing012
+    100050: shell_casing014
+    100052: shell_casing016
+    100054: shell_casing018
+    100056: shell_casing020
+    100058: shell_casing022
+    100060: shell_casing024
+    100062: shell_casing026
+    100064: shell_casing028
+    100066: shell_casing030
+    400000: //RootNode
+    400002: box
+    400004: bullet
+    400006: bullet001
+    400008: bullet002
+    400010: bullet003
+    400012: bullet004
+    400014: bullet005
+    400016: bullet006
+    400018: bullet007
+    400020: bullet008
+    400022: bullet009
+    400024: bullet010
+    400026: bullet011
+    400028: bullet012
+    400030: bullet013
+    400032: bullet014
+    400034: bullet015
+    400036: shell_casing
+    400038: shell_casing002
+    400040: shell_casing004
+    400042: shell_casing006
+    400044: shell_casing008
+    400046: shell_casing010
+    400048: shell_casing012
+    400050: shell_casing014
+    400052: shell_casing016
+    400054: shell_casing018
+    400056: shell_casing020
+    400058: shell_casing022
+    400060: shell_casing024
+    400062: shell_casing026
+    400064: shell_casing028
+    400066: shell_casing030
+    2300000: box
+    2300002: bullet
+    2300004: bullet001
+    2300006: bullet002
+    2300008: bullet003
+    2300010: bullet004
+    2300012: bullet005
+    2300014: bullet006
+    2300016: bullet007
+    2300018: bullet008
+    2300020: bullet009
+    2300022: bullet010
+    2300024: bullet011
+    2300026: bullet012
+    2300028: bullet013
+    2300030: bullet014
+    2300032: bullet015
+    2300034: shell_casing
+    2300036: shell_casing002
+    2300038: shell_casing004
+    2300040: shell_casing006
+    2300042: shell_casing008
+    2300044: shell_casing010
+    2300046: shell_casing012
+    2300048: shell_casing014
+    2300050: shell_casing016
+    2300052: shell_casing018
+    2300054: shell_casing020
+    2300056: shell_casing022
+    2300058: shell_casing024
+    2300060: shell_casing026
+    2300062: shell_casing028
+    2300064: shell_casing030
+    3300000: box
+    3300002: bullet
+    3300004: bullet001
+    3300006: bullet002
+    3300008: bullet003
+    3300010: bullet004
+    3300012: bullet005
+    3300014: bullet006
+    3300016: bullet007
+    3300018: bullet008
+    3300020: bullet009
+    3300022: bullet010
+    3300024: bullet011
+    3300026: bullet012
+    3300028: bullet013
+    3300030: bullet014
+    3300032: bullet015
+    3300034: shell_casing
+    3300036: shell_casing002
+    3300038: shell_casing004
+    3300040: shell_casing006
+    3300042: shell_casing008
+    3300044: shell_casing010
+    3300046: shell_casing012
+    3300048: shell_casing014
+    3300050: shell_casing016
+    3300052: shell_casing018
+    3300054: shell_casing020
+    3300056: shell_casing022
+    3300058: shell_casing024
+    3300060: shell_casing026
+    3300062: shell_casing028
+    3300064: shell_casing030
+    4300000: box
+    4300002: bullet
+    4300004: bullet001
+    4300006: bullet002
+    4300008: bullet003
+    4300010: bullet004
+    4300012: bullet005
+    4300014: bullet006
+    4300016: bullet007
+    4300018: bullet008
+    4300020: bullet009
+    4300022: bullet010
+    4300024: bullet011
+    4300026: bullet012
+    4300028: bullet013
+    4300030: bullet014
+    4300032: bullet015
+    4300034: shell_casing
+    4300036: shell_casing002
+    4300038: shell_casing004
+    4300040: shell_casing006
+    4300042: shell_casing008
+    4300044: shell_casing010
+    4300046: shell_casing012
+    4300048: shell_casing014
+    4300050: shell_casing016
+    4300052: shell_casing018
+    4300054: shell_casing020
+    4300056: shell_casing022
+    4300058: shell_casing024
+    4300060: shell_casing026
+    4300062: shell_casing028
+    4300064: shell_casing030
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: boxMat
+    second: {fileID: 2100000, guid: e7c7b218db9ca0c40bcd025a59e2a114, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: bullet001Mat
+    second: {fileID: 2100000, guid: fc3f82fc5d3d3b845914d9a312b95f6a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: bullet002Mat
+    second: {fileID: 2100000, guid: c59b185909074b74181877f5657c4f87, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: bullet003Mat
+    second: {fileID: 2100000, guid: 2d8b961ae5c6ac94c81924855068ea90, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: bullet004Mat
+    second: {fileID: 2100000, guid: ecdb861b1f686784ba8fa19b5e582b7a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: bullet005Mat
+    second: {fileID: 2100000, guid: cdf093068066b21409a57895f6bdf590, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: bullet006Mat
+    second: {fileID: 2100000, guid: 9299515234ccf444dbe7b95335897779, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: bullet007Mat
+    second: {fileID: 2100000, guid: 446ffd8e047e8ba4ea68ff4dd972e8af, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: bullet008Mat
+    second: {fileID: 2100000, guid: 0bf4e8836312e624182a2076f88f6860, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: bullet009Mat
+    second: {fileID: 2100000, guid: 4c1c05d689f605f40a5d63bf7441f273, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: bullet010Mat
+    second: {fileID: 2100000, guid: 65041fd8ab9dfac4f87dad92f13501a8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: bullet011Mat
+    second: {fileID: 2100000, guid: 825339c2db3381e4c91ed62c6f45cf23, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: bullet012Mat
+    second: {fileID: 2100000, guid: 7c6393dfb2ab0674ab5e1d6c9e41909f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: bullet013Mat
+    second: {fileID: 2100000, guid: 4310d70bb5be5f340b0b623c87e59f39, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: bullet014Mat
+    second: {fileID: 2100000, guid: 21e58d430d010b0418e3a72216bc626e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: bullet015Mat
+    second: {fileID: 2100000, guid: fcd75f90604d64f4283c7d7b854226f3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: bulletMat
+    second: {fileID: 2100000, guid: 09568100d117f9f43bc5b9191117f880, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: shell_casing002Mat
+    second: {fileID: 2100000, guid: 3031eaa77afa57a4e8ca87c4943855f7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: shell_casing004Mat
+    second: {fileID: 2100000, guid: 6272df20ae76bc743913a3eb7fb59940, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: shell_casing006Mat
+    second: {fileID: 2100000, guid: 820de9a487bfccc47830185590a725dc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: shell_casing008Mat
+    second: {fileID: 2100000, guid: abf41066b88dcdf44927ab54a7854999, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: shell_casing010Mat
+    second: {fileID: 2100000, guid: ca0b232aacde5fb4c9e95715474b2776, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: shell_casing012Mat
+    second: {fileID: 2100000, guid: 2ad333e127a9a5443b7faee7471517a3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: shell_casing014Mat
+    second: {fileID: 2100000, guid: 1cc46e9862a15b24cbc2340e1b7a2d65, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: shell_casing016Mat
+    second: {fileID: 2100000, guid: 4975deea2c0482c4f8dfd163a0c15bcb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: shell_casing018Mat
+    second: {fileID: 2100000, guid: 6b2a69a976dca7147a5d1dba6f8ffa9a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: shell_casing020Mat
+    second: {fileID: 2100000, guid: af7dc0eca70a6354db8d74bef88080bb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: shell_casing022Mat
+    second: {fileID: 2100000, guid: 2211ac389fca1be4cb2df07d2e149de3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: shell_casing024Mat
+    second: {fileID: 2100000, guid: 6049a1f6017ee844daa408ed9d4a2260, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: shell_casing026Mat
+    second: {fileID: 2100000, guid: a044b1919a553c046a257beaa9d53dba, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: shell_casing028Mat
+    second: {fileID: 2100000, guid: 6c28a741f3ff06e4bb7d927c7ba79831, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: shell_casing030Mat
+    second: {fileID: 2100000, guid: dd24c84c2ac8882449fe8c426cf4f526, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: shell_casingMat
+    second: {fileID: 2100000, guid: 5a3c3c1ab0666864c91b2f59f8cb634d, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
