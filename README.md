@@ -33,8 +33,9 @@ For Windows users:
 10. ``` git init ```
 11. ``` git remote add origin https://github.com/gislersoft/quoragame.git ```
 12. ``` git remote add fork https://github.com/<YOUR GIT HUB USER HERE>/quoragame.git ```
-13. ``` git checkout -f master ```
-14. ``` git pull origin master ```
+13. ``` git pull origin master ```
+14. ``` git checkout -f master ```
+15. ``` git pull origin master ```
 
 ### Useful commands
 
