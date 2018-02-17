@@ -1,4 +1,11 @@
-﻿using UnityEngine;
+﻿/**
+ * Universidad Autónoma de Occidente - 2018
+ *
+ * Controlador de la pantalla de inicio.
+ *
+ * @autor Gisler Garcés <gislersoft@hotmail.com>
+ */
+using UnityEngine;
 using UnityEngine.UI;
 using System.Collections;
 
