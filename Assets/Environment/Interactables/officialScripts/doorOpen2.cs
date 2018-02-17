@@ -1,4 +1,11 @@
-﻿using System.Collections;
+﻿/**
+ * Universidad Autónoma de Occidente - 2018
+ *
+ * doorOpen2.
+ *
+ * @autor Cesar Salazar <cesar0572011@hotmail.com>
+ */
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
