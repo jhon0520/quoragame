@@ -29,7 +29,7 @@ For Windows users:
 6. Switch to Force Text in **Edit** → **Project Settings** → **Editor** → **Asset Serialization Mode** → Force Text
 7. Save Scene and Project from File menu.
 8. Open git bash (From step 1).
-9. ``` cd c:\\projects\quora ```
+9. ``` cd /d/clasevideojuegos/QuoraDesarrollo ```
 10. ``` git init ```
 11. ``` git remote add origin https://github.com/gislersoft/quoragame.git ```
 12. ``` git remote add fork https://github.com/<YOUR GIT HUB USER HERE>/quoragame.git ```
