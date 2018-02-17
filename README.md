@@ -37,6 +37,35 @@ For Windows users:
 14. ``` git checkout -f master ```
 15. ``` git pull origin master ```
 
+### Final checks
+
+Verify with  ``` git status ``` that the only change is the scene you just create, your expected output should be:
+
+ ``` 
+$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+        Assets/Prueba.unity
+        Assets/Prueba.unity.meta
+
+nothing added to commit but untracked files present (use "git add" to track)
+ ``` 
+ 
+ Verify with ```git remote -v``` that your repo pointer are correct your expected output should be:
+ 
+  ``` 
+ $ git remote -v
+fork    https://github.com/<YOUR GITHUB USERNAME>/quoragame.git (fetch)
+fork    https://github.com/<YOUR GITHUB USERNAME>/quoragame.git (push)
+origin  https://github.com/gislersoft/quoragame.git (fetch)
+origin  https://github.com/gislersoft/quoragame.git (push)
+ ``` 
+
+
 ### Useful commands
 
 Here are some useful GIT commands with their respective explanation in spanish.
