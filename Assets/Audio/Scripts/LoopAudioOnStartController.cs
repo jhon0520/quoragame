@@ -1,8 +1,15 @@
-﻿using System.Collections;
+﻿/**
+ * Universidad Autónoma de Occidente - 2018
+ *
+ * Controlador de la pantalla de inicio.
+ *
+ * @autor Gisler Garcés <gislersoft@hotmail.com>
+ */
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class EnvironmentController : MonoBehaviour {
+public class LoopAudioOnStartController : MonoBehaviour {
 
 	/**
 	 * Al iniciar la pantalla ejecute un audio infinitamente.
