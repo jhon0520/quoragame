@@ -24,18 +24,16 @@ For Windows users:
 1. Download git https://git-scm.com/downloads
 2. Create a public github account
 3. Go to https://github.com/gislersoft/quoragame and fork the repository.
-4. Create a Unity Project in any local folder. Example: c:\\projects\quora
+4. Create a Unity Project in any local folder. Example: C:\Users\gislersoft\Documents\Unity\UAO\VideoJuegos3D\QuoraRepo
 5. Switch to Visible Meta Files in **Edit** → **Project Settings** → **Editor** → **Version Control Mode** → Visible Meta Files
 6. Switch to Force Text in **Edit** → **Project Settings** → **Editor** → **Asset Serialization Mode** → Force Text
-7. Save Scene and Project from File menu.
-8. Open git bash (From step 1).
-9. ``` cd /d/clasevideojuegos/QuoraDesarrollo ```
-10. ``` git init ```
-11. ``` git remote add origin https://github.com/gislersoft/quoragame.git ```
-12. ``` git remote add fork https://github.com/<YOUR GIT HUB USER HERE>/quoragame.git ```
-13. ``` git pull origin master ```
-14. ``` git checkout -f master ```
-15. ``` git pull origin master ```
+7. Open git bash (From step 1).
+8. ``` cd "C:\Users\gislersoft\Documents\Unity\UAO\VideoJuegos3D\QuoraRepo" ```
+9. ``` git init ```
+10. ``` git remote add origin https://github.com/gislersoft/quoragame.git ```
+11. ``` git remote add fork https://github.com/<YOUR GIT HUB USER HERE>/quoragame.git ```
+12. ``` git fetch --all ``` Note: This will take a while until all objects are downloaded.
+13. ``` git checkout -f master ``` This will force to checkout master branch
 
 ### Final checks
 
@@ -65,6 +63,12 @@ origin  https://github.com/gislersoft/quoragame.git (fetch)
 origin  https://github.com/gislersoft/quoragame.git (push)
  ``` 
 
+ If is your firstime using git then configure your basic information using this commands, please do this before send your first commit.
+
+  ``` 
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+  ``` 
 
 ### Useful commands
 
