@@ -19,4 +19,10 @@ public class StartScreenController : MonoBehaviour {
 		audio.loop = true;
 	}
 
+	/**
+	 * Si el usuario presiona el boton start.
+	 */
+	public void onClickStartButton() {
+		Application.LoadLevel("escena 1");
+	}
 }
