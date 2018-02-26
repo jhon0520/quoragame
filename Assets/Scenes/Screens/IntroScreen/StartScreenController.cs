@@ -23,6 +23,6 @@ public class StartScreenController : MonoBehaviour {
 	 * Si el usuario presiona el boton start.
 	 */
 	public void onClickStartButton() {
-		Application.LoadLevel("escena 1");
+		Application.LoadLevel("LandingCinematic");
 	}
 }
