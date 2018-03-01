@@ -25,4 +25,11 @@ public class StartScreenController : MonoBehaviour {
 	public void onClickStartButton() {
 		Application.LoadLevel("LandingCinematic");
 	}
+
+	/**
+	 * Si el usuario presiona el boton quit.
+	 */
+	public void onClickQuitButton() {
+		Application.Quit();
+	}
 }
