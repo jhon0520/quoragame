@@ -34,8 +34,7 @@ For Windows users:
 10. ``` git remote add origin https://github.com/gislersoft/quoragame.git ```
 11. ``` git remote add fork https://github.com/<YOUR GIT HUB USER HERE>/quoragame.git ```
 12. ``` git fetch --all ``` Note: This will take a while until all objects are downloaded.
-13. ``` git checkout -b master ``` This will create the local branch
-14. ``` git reset --hard origin/master ``` This will discard all your local changes and just overwrite everything with a copy from the remote branch
+13. ``` git reset --hard origin/master ``` This will discard all your local changes and just overwrite everything with a copy from the remote branch
 
 ### Final checks
 
