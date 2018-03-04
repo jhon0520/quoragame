@@ -1,4 +1,3 @@
-﻿
 <img align="right" src="https://github.com/gislersoft/quoragame/blob/master/quora-logo.png" width="30%" height="30%" style="text-align:center">
 
 # Quora - Abandoned Planet
@@ -36,7 +35,7 @@ For Windows users:
 11. ``` git remote add fork https://github.com/<YOUR GIT HUB USER HERE>/quoragame.git ```
 12. ``` git fetch --all ``` Note: This will take a while until all objects are downloaded.
 13. ``` git checkout -b master ``` This will create the local branch
-14. ``` git pull origin master ``` This will pull the master branch from origin to your local master branch
+14. ``` git reset --hard origin/master ``` This will discard all your local changes and just overwrite everything with a copy from the remote branch
 
 ### Final checks
 
