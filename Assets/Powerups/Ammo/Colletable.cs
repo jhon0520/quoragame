@@ -14,24 +14,25 @@ public class Colletable : MonoBehaviour {
 	// Use this for initialization
 	void Start ()
     {
-        Colletable.BalasCount += BalaValor;
+       // Colletable.BalasCount += BalaValor;
+		Colletable.BalasCount = 0;
 		
 	}
 	
 
     void OnDestroy()
     {
-        Colletable.BalasCount -= BalaValor;
+        Colletable.BalasCount += BalaValor;
 
-        if (BalasCount <= 0)
+        if (BalasCount == 100)
         {
-            Debug.Log("Has recogido todas las balas");
+            Debug.Log("Municion llena");
         }
     }
 
     void OnTriggerEnter(Collider OtherCollider)
     {
-        if (OtherCollider.CompareTag("player"))
+        if (OtherCollider.CompareTag("P1"))
         {
             Destroy(gameObject);
         }
