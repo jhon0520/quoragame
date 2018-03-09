@@ -1,6 +1,6 @@
 fileFormatVersion: 2
-guid: 4017d1a2931aae545b748963682df946
-timeCreated: 1520575345
+guid: 117a0e7873356d24998e7172269ffdb8
+timeCreated: 1520578729
 licenseType: Free
 ModelImporter:
   serializedVersion: 22
@@ -17,17 +17,17 @@ ModelImporter:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Material
-    second: {fileID: 2100000, guid: 975a4864d84925b47ba94ddce72e24fe, type: 2}
+    second: {fileID: 2100000, guid: 59c87a9c980490e46bc4a8d139056f5a, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Material__texturaCintaBanco_jpg
-    second: {fileID: 2100000, guid: 768fc14426f16f44ca29514bfdc10b6e, type: 2}
+    second: {fileID: 2100000, guid: fc5481c3dccb85b419787e12f977e501, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Material__textura_dolar_jpg
-    second: {fileID: 2100000, guid: a47f1a3d58b769b4a88cbf1b51f589f7, type: 2}
+    second: {fileID: 2100000, guid: 5afc877ea6655cc428bdd5dfe84e4558, type: 2}
   materials:
     importMaterials: 1
     materialName: 0
