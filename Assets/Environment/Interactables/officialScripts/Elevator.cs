@@ -31,7 +31,7 @@ public class Elevator : MonoBehaviour {
         lift = GameObject.Find("Platform");
         top = GameObject.Find("top");
         bottom = GameObject.Find("bottom");
-        speed = 0.56f * Time.deltaTime;
+        speed = 0.9f * Time.deltaTime;
         au = lift.GetComponent<AudioSource>();
         txtup = Resources.Load("up") as Texture;
         txtdown = Resources.Load("down") as Texture;
@@ -60,7 +60,7 @@ public class Elevator : MonoBehaviour {
                 {
                     
                     lift.transform.position = Vector3.MoveTowards(lift.transform.position, top.transform.position, speed);
-                    if (lift.transform.position == top.transform.position && startMoving)
+                    if (lift.transform.position.y == top.transform.position.y && startMoving)
                     {
                         startMoving = false;
                         up = !up;
@@ -86,7 +86,7 @@ public class Elevator : MonoBehaviour {
                 {
 
                     lift.transform.position = Vector3.MoveTowards(lift.transform.position, bottom.transform.position, speed);
-                    if (lift.transform.position == bottom.transform.position && startMoving)
+                    if (lift.transform.position.y == bottom.transform.position.y && startMoving)
                     {
                         startMoving = false;
                         up = !up;
