@@ -1,6 +1,7 @@
 using System;
 using UnityEngine;
 using UnityStandardAssets.CrossPlatformInput;
+using UnityEngine.SceneManagement;
 using Random = UnityEngine.Random;
 
 namespace UnityStandardAssets.Characters.FirstPerson
@@ -133,6 +134,8 @@ namespace UnityStandardAssets.Characters.FirstPerson
             m_Capsule = GetComponent<CapsuleCollider>();
 			m_AudioSource = GetComponent<AudioSource>();
             mouseLook.Init (transform, cam.transform);
+
+            
         }
 
 
@@ -144,6 +147,13 @@ namespace UnityStandardAssets.Characters.FirstPerson
             {
                 m_Jump = true;
             }
+
+            //teleport
+            
+            
+            
+            //end teleport
+
         }
 
 
@@ -151,6 +161,8 @@ namespace UnityStandardAssets.Characters.FirstPerson
         {
             GroundCheck();
             Vector2 input = GetInput();
+            
+            
 
             if ((Mathf.Abs(input.x) > float.Epsilon || Mathf.Abs(input.y) > float.Epsilon) && (advancedSettings.airControl || m_IsGrounded))
             {
@@ -315,5 +327,20 @@ namespace UnityStandardAssets.Characters.FirstPerson
 				PlayLandingSound ();
             }
         }
+
+        void OnCollisionEnter(Collision collision)
+    {
+    if (collision.gameObject.name == "InfiniteCube")
+        {
+
+            Debug.Log("Infinito");
+            SceneManager.LoadScene("escena 1");
+ 
+        }
+
+        
+    }
+
+
     }
 }
